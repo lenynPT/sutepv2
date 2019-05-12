@@ -1,0 +1,467 @@
+[01-Mar-2019 03:53:38 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 03:53:50 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 03:54:36 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 03:55:39 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 03:55:39 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 03:55:39 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 03:55:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php:6
+Stack trace:
+#0 /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php(6): PDO->__construct('mysql:host=loca...', 'root', 'admer')
+#1 /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php(9): Conexion::conectar()
+#2 /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php(13): IngresoModels::ingresoModel(Array, 'usuarios')
+#3 /home/s0mj1lnl6hs7/public_html/backend/views/modules/ingreso.php(10): Ingreso->ingresoController()
+#4 /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php(16): include('/home/s0mj1lnl6...')
+#5 /home/s0mj1lnl6hs7/public_html/backend/views/template.php(42): Enlaces->enlacesController()
+#6 /home/s0mj1lnl6hs7/public_html/backend/controllers/template.php(5): include('/home/s0mj1lnl6...')
+#7 /home/s0mj1lnl6hs7/public_html/backend/index.php(12): TemplateController->template()
+#8 {main}
+  thrown in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php on line 6
+[01-Mar-2019 03:56:04 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 03:56:15 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 03:56:15 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 03:56:15 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 03:56:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php:6
+Stack trace:
+#0 /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php(6): PDO->__construct('mysql:host=loca...', 'root', 'admer')
+#1 /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php(9): Conexion::conectar()
+#2 /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php(13): IngresoModels::ingresoModel(Array, 'usuarios')
+#3 /home/s0mj1lnl6hs7/public_html/backend/views/modules/ingreso.php(10): Ingreso->ingresoController()
+#4 /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php(16): include('/home/s0mj1lnl6...')
+#5 /home/s0mj1lnl6hs7/public_html/backend/views/template.php(42): Enlaces->enlacesController()
+#6 /home/s0mj1lnl6hs7/public_html/backend/controllers/template.php(5): include('/home/s0mj1lnl6...')
+#7 /home/s0mj1lnl6hs7/public_html/backend/index.php(12): TemplateController->template()
+#8 {main}
+  thrown in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php on line 6
+[01-Mar-2019 03:57:58 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 03:58:36 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 03:58:36 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 03:58:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 03:58:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php:6
+Stack trace:
+#0 /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php(6): PDO->__construct('mysql:host=loca...', 'root', 'admer')
+#1 /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php(9): Conexion::conectar()
+#2 /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php(13): IngresoModels::ingresoModel(Array, 'usuarios')
+#3 /home/s0mj1lnl6hs7/public_html/backend/views/modules/ingreso.php(10): Ingreso->ingresoController()
+#4 /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php(16): include('/home/s0mj1lnl6...')
+#5 /home/s0mj1lnl6hs7/public_html/backend/views/template.php(42): Enlaces->enlacesController()
+#6 /home/s0mj1lnl6hs7/public_html/backend/controllers/template.php(5): include('/home/s0mj1lnl6...')
+#7 /home/s0mj1lnl6hs7/public_html/backend/index.php(12): TemplateController->template()
+#8 {main}
+  thrown in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php on line 6
+[01-Mar-2019 03:58:51 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 03:58:51 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 03:58:51 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 03:58:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php:6
+Stack trace:
+#0 /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php(6): PDO->__construct('mysql:host=loca...', 'root', 'admer')
+#1 /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php(9): Conexion::conectar()
+#2 /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php(13): IngresoModels::ingresoModel(Array, 'usuarios')
+#3 /home/s0mj1lnl6hs7/public_html/backend/views/modules/ingreso.php(10): Ingreso->ingresoController()
+#4 /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php(16): include('/home/s0mj1lnl6...')
+#5 /home/s0mj1lnl6hs7/public_html/backend/views/template.php(42): Enlaces->enlacesController()
+#6 /home/s0mj1lnl6hs7/public_html/backend/controllers/template.php(5): include('/home/s0mj1lnl6...')
+#7 /home/s0mj1lnl6hs7/public_html/backend/index.php(12): TemplateController->template()
+#8 {main}
+  thrown in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php on line 6
+[01-Mar-2019 04:05:25 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:07:11 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:07:46 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:08:38 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:09:45 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:09:45 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 04:09:45 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 04:09:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ugelandahuaylas'@'localhost' (using password: NO) in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php:6
+Stack trace:
+#0 /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php(6): PDO->__construct('mysql:host=loca...', 'ugelandahuaylas', '')
+#1 /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php(9): Conexion::conectar()
+#2 /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php(13): IngresoModels::ingresoModel(Array, 'usuarios')
+#3 /home/s0mj1lnl6hs7/public_html/backend/views/modules/ingreso.php(10): Ingreso->ingresoController()
+#4 /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php(16): include('/home/s0mj1lnl6...')
+#5 /home/s0mj1lnl6hs7/public_html/backend/views/template.php(42): Enlaces->enlacesController()
+#6 /home/s0mj1lnl6hs7/public_html/backend/controllers/template.php(5): include('/home/s0mj1lnl6...')
+#7 /home/s0mj1lnl6hs7/public_html/backend/index.php(12): TemplateController->template()
+#8 {main in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php on line 6
+[01-Mar-2019 04:10:00 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:10:21 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:10:21 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 04:10:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 04:10:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ugelandahuaylas'@'localhost' (using password: NO) in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php:6
+Stack trace:
+#0 /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php(6): PDO->__construct('mysql:host=loca...', 'ugelandahuaylas', '')
+#1 /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php(9): Conexion::conectar()
+#2 /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php(13): IngresoModels::ingresoModel(Array, 'usuarios')
+#3 /home/s0mj1lnl6hs7/public_html/backend/views/modules/ingreso.php(10): Ingreso->ingresoController()
+#4 /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php(16): include('/home/s0mj1lnl6...')
+#5 /home/s0mj1lnl6hs7/public_html/backend/views/template.php(42): Enlaces->enlacesController()
+#6 /home/s0mj1lnl6hs7/public_html/backend/controllers/template.php(5): include('/home/s0mj1lnl6...')
+#7 /home/s0mj1lnl6hs7/public_html/backend/index.php(12): TemplateController->template()
+#8 {main in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php on line 6
+[01-Mar-2019 04:10:49 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:15:04 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:15:04 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 04:15:04 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 04:15:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ugelandahuaylas'@'localhost' (using password: NO) in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php:6
+Stack trace:
+#0 /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php(6): PDO->__construct('mysql:host=loca...', 'ugelandahuaylas', '')
+#1 /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php(9): Conexion::conectar()
+#2 /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php(13): IngresoModels::ingresoModel(Array, 'usuarios')
+#3 /home/s0mj1lnl6hs7/public_html/backend/views/modules/ingreso.php(10): Ingreso->ingresoController()
+#4 /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php(16): include('/home/s0mj1lnl6...')
+#5 /home/s0mj1lnl6hs7/public_html/backend/views/template.php(42): Enlaces->enlacesController()
+#6 /home/s0mj1lnl6hs7/public_html/backend/controllers/template.php(5): include('/home/s0mj1lnl6...')
+#7 /home/s0mj1lnl6hs7/public_html/backend/index.php(12): TemplateController->template()
+#8 {main in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php on line 6
+[01-Mar-2019 04:15:09 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:15:23 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:15:23 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 04:15:23 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 04:15:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ugelandahuaylas'@'localhost' (using password: NO) in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php:6
+Stack trace:
+#0 /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php(6): PDO->__construct('mysql:host=loca...', 'ugelandahuaylas', '')
+#1 /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php(9): Conexion::conectar()
+#2 /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php(13): IngresoModels::ingresoModel(Array, 'usuarios')
+#3 /home/s0mj1lnl6hs7/public_html/backend/views/modules/ingreso.php(10): Ingreso->ingresoController()
+#4 /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php(16): include('/home/s0mj1lnl6...')
+#5 /home/s0mj1lnl6hs7/public_html/backend/views/template.php(42): Enlaces->enlacesController()
+#6 /home/s0mj1lnl6hs7/public_html/backend/controllers/template.php(5): include('/home/s0mj1lnl6...')
+#7 /home/s0mj1lnl6hs7/public_html/backend/index.php(12): TemplateController->template()
+#8 {main in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php on line 6
+[01-Mar-2019 04:15:45 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:15:58 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:15:58 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 04:15:58 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 04:15:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ugelandahuaylas'@'localhost' (using password: YES) in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php:6
+Stack trace:
+#0 /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php(6): PDO->__construct('mysql:host=loca...', 'ugelandahuaylas', 'HG,D.o;0Q-;')
+#1 /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php(9): Conexion::conectar()
+#2 /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php(13): IngresoModels::ingresoModel(Array, 'usuarios')
+#3 /home/s0mj1lnl6hs7/public_html/backend/views/modules/ingreso.php(10): Ingreso->ingresoController()
+#4 /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php(16): include('/home/s0mj1lnl6...')
+#5 /home/s0mj1lnl6hs7/public_html/backend/views/template.php(42): Enlaces->enlacesController()
+#6 /home/s0mj1lnl6hs7/public_html/backend/controllers/template.php(5): include('/home/s0mj1lnl6...')
+#7 /home/s0mj1lnl6hs7/public_html/backend/index.php(12): TemplateController->templat in /home/s0mj1lnl6hs7/public_html/backend/models/conexion.php on line 6
+[01-Mar-2019 04:16:07 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:44:22 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:44:39 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:44:39 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 04:44:39 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 04:44:39 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[01-Mar-2019 04:44:39 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[01-Mar-2019 04:44:39 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:44:47 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:44:47 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 04:44:47 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 04:46:47 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:46:47 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 04:46:47 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 04:46:54 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:46:54 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 04:46:54 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 04:48:10 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:48:10 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 61
+[01-Mar-2019 04:48:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 04:48:10 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 04:48:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 04:48:14 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:48:14 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 04:48:14 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 04:48:15 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:48:15 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 04:48:15 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 04:48:17 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:48:17 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 04:48:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 04:58:19 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 04:58:19 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 04:58:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:11:45 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:11:45 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 61
+[01-Mar-2019 05:11:45 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 05:11:45 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:11:45 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:11:48 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:11:48 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:11:48 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:21:08 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:21:08 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 61
+[01-Mar-2019 05:21:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 05:21:08 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:21:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:21:15 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:21:15 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 61
+[01-Mar-2019 05:21:15 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 05:21:15 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:21:15 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:21:24 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:21:24 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 61
+[01-Mar-2019 05:21:24 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 05:21:24 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:21:24 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:21:31 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:21:31 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:21:31 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:21:46 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:21:46 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:21:46 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:23:00 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:23:00 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:23:00 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:24:49 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:24:49 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 61
+[01-Mar-2019 05:24:49 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 05:24:49 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:24:49 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:24:51 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:24:51 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:24:51 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:29:31 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:29:31 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:29:31 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:30:12 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:30:12 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 61
+[01-Mar-2019 05:30:12 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 05:30:12 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:30:12 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:30:15 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:30:15 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:30:15 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:33:34 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:33:34 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 61
+[01-Mar-2019 05:33:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 05:33:34 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:33:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:33:36 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:33:36 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 101
+[01-Mar-2019 05:33:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 29
+[01-Mar-2019 05:40:36 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:40:36 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 05:40:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:41:33 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 00:41:33 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 69
+[01-Mar-2019 00:41:33 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 00:41:33 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 00:41:33 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:41:36 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:41:36 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 05:41:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:41:55 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:41:55 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 05:41:55 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:45:17 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:45:17 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 05:45:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:45:17 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::borrarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 237
+[01-Mar-2019 05:45:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 80
+[01-Mar-2019 05:45:21 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:45:21 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 05:45:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:53:45 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 00:53:45 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 69
+[01-Mar-2019 00:53:45 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 00:53:45 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 00:53:45 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:53:48 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:53:48 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 05:53:48 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:53:56 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:53:56 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 05:53:56 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:53:56 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::borrarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 237
+[01-Mar-2019 05:53:56 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 80
+[01-Mar-2019 05:53:59 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:53:59 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 05:53:59 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 05:56:16 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 05:56:16 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 05:56:16 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 06:02:31 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 06:02:31 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 06:02:31 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 06:39:18 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 06:39:38 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 06:39:38 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 06:39:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 06:39:38 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[01-Mar-2019 06:39:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[01-Mar-2019 06:39:38 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 06:39:50 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 06:39:50 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 06:39:50 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 11:07:26 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 11:07:41 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 11:07:41 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 11:07:41 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 11:07:41 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[01-Mar-2019 11:07:41 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[01-Mar-2019 11:07:41 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 11:07:55 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 11:07:55 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 11:07:55 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 11:08:28 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 11:08:28 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 11:08:28 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 12:19:34 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:19:34 UTC] PHP Notice:  Undefined index: validar in /home/s0mj1lnl6hs7/public_html/backend/views/modules/articulos.php on line 3
+[01-Mar-2019 12:19:34 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:22:02 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:22:02 UTC] PHP Notice:  Undefined index: validar in /home/s0mj1lnl6hs7/public_html/backend/views/modules/articulos.php on line 3
+[01-Mar-2019 12:22:03 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:22:23 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:22:23 UTC] PHP Notice:  Undefined index: validar in /home/s0mj1lnl6hs7/public_html/backend/views/modules/inicio.php on line 3
+[01-Mar-2019 12:22:40 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:22:40 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 12:22:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 12:22:40 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[01-Mar-2019 12:22:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[01-Mar-2019 12:22:41 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:22:50 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:22:50 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 12:22:50 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 12:23:00 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:26:17 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:26:17 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 12:26:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 12:26:17 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[01-Mar-2019 12:26:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[01-Mar-2019 12:26:17 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:26:24 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:26:24 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 12:26:24 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 12:34:32 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:34:40 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:34:40 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 12:34:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 12:34:40 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[01-Mar-2019 12:34:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[01-Mar-2019 12:34:40 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:34:42 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 12:34:42 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 12:34:42 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 14:41:43 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 14:41:55 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 14:41:55 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 14:41:55 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 14:41:55 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[01-Mar-2019 14:41:55 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[01-Mar-2019 14:41:55 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 14:42:18 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 14:42:18 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 14:42:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 14:46:45 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 14:46:45 UTC] PHP Notice:  Undefined index: validar in /home/s0mj1lnl6hs7/public_html/backend/views/modules/articulos.php on line 3
+[01-Mar-2019 14:46:45 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:35:10 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:35:34 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:35:34 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 15:35:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 15:35:34 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[01-Mar-2019 15:35:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[01-Mar-2019 15:35:34 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:35:56 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:36:00 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:36:03 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:36:03 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 15:36:03 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 15:40:23 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 10:40:23 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 69
+[01-Mar-2019 10:40:23 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 10:40:23 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 10:40:23 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 15:40:33 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:40:33 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 15:40:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 15:40:58 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:40:58 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 15:40:58 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 15:41:30 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:41:30 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 15:41:30 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 15:41:30 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::borrarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 237
+[01-Mar-2019 15:41:30 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 80
+[01-Mar-2019 15:41:33 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:41:33 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 15:41:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 15:41:53 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:41:53 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 15:41:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 15:41:53 UTC] PHP Warning:  unlink(views/images/articulos/articulo986.jpg): No such file or directory in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 233
+[01-Mar-2019 15:41:53 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::borrarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 237
+[01-Mar-2019 15:41:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 80
+[01-Mar-2019 15:41:57 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:41:57 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 15:41:57 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 15:42:05 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:42:05 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 15:42:05 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 15:48:09 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 15:48:09 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 15:48:09 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:32:38 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:32:45 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:32:45 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[01-Mar-2019 16:32:45 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[01-Mar-2019 16:32:45 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[01-Mar-2019 16:32:45 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[01-Mar-2019 16:32:45 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:32:49 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:32:49 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 16:32:49 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:47:30 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:47:30 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 16:47:30 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:49:52 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 11:49:52 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 69
+[01-Mar-2019 11:49:52 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 11:49:52 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 11:49:52 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:49:56 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:49:56 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 16:49:56 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:52:06 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:52:06 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 16:52:06 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:52:06 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::borrarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 237
+[01-Mar-2019 16:52:06 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 80
+[01-Mar-2019 16:52:09 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:52:09 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 16:52:09 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:52:35 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 11:52:35 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::guardarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 69
+[01-Mar-2019 11:52:35 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 11
+[01-Mar-2019 11:52:35 America/Lima] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 11:52:35 America/Lima] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:52:38 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:52:38 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 16:52:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:53:12 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:53:12 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 16:53:12 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 16:53:54 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 16:53:54 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 16:53:54 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 17:15:33 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 17:15:33 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 17:15:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 17:22:08 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 17:22:08 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 17:22:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 17:22:52 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 17:22:52 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 17:22:52 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[01-Mar-2019 17:22:52 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::borrarArticuloModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 237
+[01-Mar-2019 17:22:52 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 80
+[01-Mar-2019 17:22:56 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[01-Mar-2019 17:22:56 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[01-Mar-2019 17:22:56 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[05-Mar-2019 13:21:45 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[05-Mar-2019 13:21:50 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[05-Mar-2019 13:21:50 UTC] PHP Deprecated:  Non-static method IngresoModels::ingresoModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 13
+[05-Mar-2019 13:21:50 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 9
+[05-Mar-2019 13:21:50 UTC] PHP Deprecated:  Non-static method IngresoModels::intentosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/ingreso.php on line 25
+[05-Mar-2019 13:21:50 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/ingreso.php on line 19
+[05-Mar-2019 13:21:50 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[05-Mar-2019 13:21:58 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[05-Mar-2019 13:21:58 UTC] PHP Deprecated:  Non-static method GestorArticulosModel::mostrarArticulosModel() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/gestorArticulos.php on line 109
+[05-Mar-2019 13:21:58 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/models/gestorArticulos.php on line 30
+[05-Mar-2019 13:22:41 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15
+[05-Mar-2019 13:22:41 UTC] PHP Deprecated:  Non-static method EnlacesModels::enlacesPaginaModels() should not be called statically in /home/s0mj1lnl6hs7/public_html/backend/controllers/enlaces.php on line 15

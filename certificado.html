@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sutep Andahuaylas</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- icon fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!-- css propios -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-k">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                Sutep<img src="img/logosutep.png" alt="Logo sutep" class="img-logo"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto lead">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-k" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-k" href="forum.html">Fórum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-k" href="organizacion.html">Organización</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-k" href="certificado.html">Certificado</a>
+                    </li>
+                </ul>
+            </div>        
+        </div>
+    </nav>
+
+    <!-- -- duplicado navegación / fondo para arreglar slide -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-k">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto lead">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-k text-black disabled" href="#" tabindex="-1" aria-disabled="true">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-k text-black disabled" href="#" tabindex="-1" aria-disabled="true">Fórum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-k text-black disabled" href="#" tabindex="-1" aria-disabled="true">Organización</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-k text-black disabled" href="#" tabindex="-1" aria-disabled="true">Certificado</a>
+                    </li>
+                </ul>
+            </div>        
+        </div>
+    </nav>
+    <!-- FIN NAVEGACIÓN -->
+
+    <!-- SECCIÓN CERTIFICADO -->
+    <section class="cuerpo-certificado secction-principal">
+        <div class="fondo-transparente">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img src="img/bolante.jpg" width="340px;" alt="">
+                    </div>
+                    <div class="col-md-6 justify-content-center align-self-center px-5 p-sm-5">
+                        <div class="text-white lead ">
+                            <div class="">
+                                <h3 class="text-center">CERTIFICADO DOCENTE</h3>
+                                <form id="formulario">
+                                    <div class="form-group">
+                                        <label class="text-left">Seleccione Tipo documento</label>
+                                        <input type="text" class="form-control form-control-sm d-inline" disabled readonly="readonly" value="DNI ▼">
+                                    </div>
+
+                                    <input type="number" name="dni" class="form-control form-control-lg" id="dni" required="required" placeholder="Ingrese DNI">
+
+                                    <button class="btn btn-lg btn-outline-success btn-block my-3" id="btn-obtener">
+                                        OBTENER
+                                    </button>
+                                </form>
+
+                                <div class="notice-general">
+                                    <div class="alert alert-warning alert-dismissible fade hiden notice" role="alert">
+                                       <span class="notification">RESULTANDO...</span>
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times</span> 
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-dark text-white ">
+        <div class="container">
+            <p class="mb-0 p-5">&copy;Rezuam 2019</p>
+        </div>
+    </footer>
+
+
+
+
+    <!-- js Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- AJAX CDN-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+    </script>
+    
+    
+    <script>
+
+        $(document).ready(function(){
+            document.getElementById('btn-obtener').addEventListener('click',function(event){
+                event.preventDefault();
+                var dni = document.getElementById('dni').value;
+
+                if( dni.length != 8 || ((dni/dni) != 1) ){
+                    console.log("Número de DNI incorrecto!!");
+                    No_es_Dni();
+
+                    console.log( $('#formulario').serialize() ); //prueba :)          
+
+                    return null;
+
+                }else{
+
+                    $.ajax({
+                        type: "POST",
+                        url: "procesar_certificado.php",
+                        data: $('#formulario').serialize(),
+                        success: function(data){
+                            console.log(data);
+                            let request_server=data;
+                            if(request_server){
+                                Descargar();
+                            }else{
+                                console.log("USUARIO NO EXISTE")                                    
+                                Usuario_No_Existe();
+                            }
+
+                        }
+
+                    });
+
+                }
+
+                /*
+                * Funciones para las notificaciones de consulta
+                */
+                
+                function Descargar(){
+                    $('.notice-general').html(
+                        `<div class="alert alert-success alert-dismissible fade show text-center notice" role="alert">
+                            <span class="notification">certificado para ${dni} <a href='tcpdf/pdf.php?id=${dni}' target='_blank' class="btn btn-success btn-lg btn-block">Descargar pdf</a> </span>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times</span> 
+                            </button>
+                        </div>`
+                    );
+                }
+
+                function Usuario_No_Existe(){
+                    $('.notice-general').html(
+                        `<div class="alert alert-danger alert-dismissible fade show notice" role="alert">
+                            <span class="notification lead">No existe!!</span>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times</span> 
+                            </button>
+                        </div>`
+                    );
+                }
+
+                function No_es_Dni(){
+                    $('.notice-general').html(
+                        `<div class="alert alert-warning alert-dismissible fade show notice" role="alert">
+                            <span class="notification">Numero de DNI incorrecto!!</span>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times</span> 
+                            </button>
+                        </div>`
+                    );
+                }
+
+
+            });
+        });
+
+
+    </script>
+
+</body>
+</html>

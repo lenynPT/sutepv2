@@ -1,0 +1,64 @@
+.navbar-k{
+    box-shadow: 0px 3px 5px rgba(255, 159, 67,.3);
+    
+    
+}
+.navbar-k2{
+    box-shadow: 0px 3px 5px rgba(255, 159, 67,1.0);
+    opacity: .5;
+}
+.navbar-k .nav-item .nav-link-k{
+    color:#fff;
+}
+
+.img-logo{
+    position: absolute;
+    width: 30px;    
+    top: 12px;
+    margin-left: 4px;
+}
+
+.slide-k{
+    
+}
+
+
+
+/*PÁGINA FÓRUM */
+.secction-principal{
+    background: url(../img/auditorio2.jpg);
+    background-size: cover;
+
+}
+
+.pantalla-transparent{
+    background: rgba(48, 51, 107,.4);
+    background-size: cover;
+
+}
+
+
+.equipo-container{
+    background: rgba(255, 159, 67,.4); /*#30336b;*/
+}
+
+.team-sutep{
+    background: url(../img/logosutep.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.fondo-transparent{
+    background: rgba(255, 159, 67,.8);
+}
+
+.card-person-sutep{
+    
+    opacity: .7;
+}
+
+.fondo-transparente{
+    background: rgba(48, 51, 107,.5);
+    background-size: cover;
+}
