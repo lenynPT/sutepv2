@@ -25,7 +25,7 @@ $tipo = $fila['tipo'];
 
 
 $pdf = new TCPDF('L', 'mm', 'A4');
-$pdf->SetTitle($fila['tipo'].'Certificado docente...'); //Titlo del pdf
+$pdf->SetTitle('Certificados SUTEP'); //Titlo del pdf
 $pdf->setPrintHeader(false); //No se imprime cabecera
 $pdf->setPrintFooter(false); //No se imprime pie de pagina
 //$pdf->SetMargins(20, 20, 20, false); //Se define margenes izquierdo, alto, derecho
@@ -71,6 +71,6 @@ $pdf->write1DBarcode($dni, 'C128C', 250,180, '', 20, 0.4, $style, 'N');
 
 
 $pdf->lastPage();
-$pdf->output('Reporte.pdf', 'I');
+$pdf->output("certificado sutep {$nombre}.pdf" , 'I');
 
  ?>
