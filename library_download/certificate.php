@@ -1,4 +1,7 @@
 <?php 
+
+try {
+    
 $dni= base64_decode($_GET['id']); //decodifica
 
 require_once('tcpdf/config/lang/eng.php');
@@ -16,7 +19,13 @@ $strConsulta = "SELECT * from docente where dni =  '$dni'";
 
 $result = mysqli_query($con->conect,$strConsulta);
 
+
 $fila = mysqli_fetch_array($result);
+
+//Está vacio
+if(empty($fila)){
+    header("location:/sutepv2/"); //Si está vacio me redirecciona al inicio de la página
+}
 
 $nombre=utf8_encode($fila['nombres']);   //soluciona problemas de tildes       
 $apellido = utf8_encode($fila['apellidos']); //soluciona problemas de tildes ## -- averiguar -- utf8_decode($registro['campo'])
@@ -72,5 +81,10 @@ $pdf->write1DBarcode($dni, 'C128C', 250,180, '', 20, 0.4, $style, 'N');
 
 $pdf->lastPage();
 $pdf->output("certificado sutep {$nombre}.pdf" , 'I');
+
+
+} catch (Exception $th) {
+    header("location:/sutepv2/");
+}
 
  ?>
