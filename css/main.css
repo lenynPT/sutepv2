@@ -28,7 +28,7 @@
 .secction-principal{
     background: url(../img/auditorio2.jpg);
     background-size: cover;
-
+    
 }
 
 .pantalla-transparent{
@@ -49,16 +49,24 @@
     background-size: cover;
     position: relative;
 }
+
 .fondo-transparent{
     background: rgba(255, 159, 67,.8);
 }
-
 .card-person-sutep{
     
     opacity: .7;
 }
 
 .fondo-transparente{
-    background: rgba(48, 51, 107,.5);
+    background: rgba(255, 159, 67,.1); /*rgba(48, 51, 107,.5)*/
     background-size: cover;
+    min-height: 580px; 
 }
+
+@media only screen and (max-width: 767px){
+    .fondo-transparente{
+        background: rgba(48, 51, 107,.5);
+    }
+}
+
