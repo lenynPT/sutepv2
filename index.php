@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto lead">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-k" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link nav-link-k" href="index.php">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-link-k" href="forum.html">Fórum</a>
@@ -99,14 +99,13 @@
     </div>
 
     <!-- secction container -->
-
     <section class="bg-warning py-5">
+    
         <div class="container lead text-light text-center">
             <img src="img/logosutep.png" width="100px" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, blanditiis?</p>
+            <p><b>Un niño, un maestro, un libro, un lápiz pueden cambiar el mundo (Malala Yousafzai).</b></p>
         </div>
     </section>
-
 
     <!-- SECTION NOTICIAS -->
     <section class="bg-light text-muted py-5">
@@ -146,7 +145,7 @@
                 </div>
 
                 <div class="col-md-4 text-center">
-                        <iframe width="340" height="240" src="https://www.youtube.com/embed/EoXgZcu6820" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="340" height="240" src="https://www.youtube.com/embed/fE0v6lZ3fuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRezuam-600773577055743%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
@@ -161,7 +160,18 @@
 
     <footer class="bg-dark text-white ">
         <div class="container">
-            <p class="mb-0 p-5">&copy;Rezuam 2019</p>
+            <p class="mb-0 p-5"><span>©&nbsp; </span><span >2019</span><span>&nbsp;</span><span>SutepAndahuaylas</span><span>.&nbsp;</span><span>Todos los derechos reservados</span><span>&nbsp;</span>. Desarrollado&nbsp;por&nbsp;<a href="https://www.rezuam.intcap.org">Rezuam</a></p>
+            <div class="d-flex flex-row justify-content-left">
+                                <div class="p-4">
+                                    <a href="https://www.facebook.com/KevQL1109" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </div>
+            </div>
         </div>
     </footer>
 
