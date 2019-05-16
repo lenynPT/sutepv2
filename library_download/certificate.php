@@ -1,5 +1,5 @@
 <?php 
-$dni= $_GET['id'];
+$dni= base64_decode($_GET['id']); //decodifica
 
 require_once('tcpdf/config/lang/eng.php');
 header("Content-Type: text/html; charset=iso-8859-1 ");

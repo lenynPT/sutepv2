@@ -18,60 +18,8 @@
 <body>
     
     <!-- NAVEGACIÓN -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-k">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                Sutep<img src="img/logosutep.png" alt="Logo sutep" class="img-logo"> 
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto lead">
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-k" href="index.php">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-k" href="forum.html">Fórum</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-k" href="organizacion.html">Organización</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-k" href="certificado.html">Certificado</a>
-                    </li>
-                </ul>
-            </div>        
-        </div>
-    </nav>
-
-    <!-- -- duplicado navegación / fondo para arreglar slide -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-k">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto lead">
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-k text-black disabled" href="#" tabindex="-1" aria-disabled="true">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-k text-black disabled" href="#" tabindex="-1" aria-disabled="true">Fórum</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-k text-black disabled" href="#" tabindex="-1" aria-disabled="true">Organización</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-k text-black disabled" href="#" tabindex="-1" aria-disabled="true">Certificado</a>
-                    </li>
-                </ul>
-            </div>        
-        </div>
-    </nav>
+    <?php include('navegacion.html'); ?>
+    
     <!-- FIN NAVEGACIÓN -->
 
     <!-- SECCIÓN CERTIFICADO -->
@@ -139,10 +87,8 @@
 
 
 
-    <!-- js Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <?php include('pie.html'); ?>
+
     <!-- AJAX CDN-->
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -195,7 +141,7 @@
                 function Descargar(){
                     $('.notice-general').html(
                         `<div class="alert alert-success alert-dismissible fade show text-center notice" role="alert">
-                            <span class="notification">certificado para ${dni} <a href='tcpdf/pdf.php?id=${dni}' target='_blank' class="btn btn-success btn-lg btn-block">Descargar pdf</a> </span>
+                            <span class="notification">certificado para ${dni} <a href='library_download/certificate.php?chmodmodeelle=%&${btoa(dni)}&${btoa("Lenyn putito siempre putito")}&id=${btoa(dni)}' target='_blank' class="btn btn-success btn-lg btn-block">Descargar pdf</a> </span>
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">&times</span> 
                             </button>
