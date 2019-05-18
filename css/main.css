@@ -64,6 +64,16 @@
     min-height: 580px; 
 }
 
+
+/* COLOR PIE CONTACTOS */
+.bg-contact{
+    background: #333;
+}
+.bg-text-contact{
+    background:#333;
+}
+
+
 @media only screen and (max-width: 767px){
     .fondo-transparente{
         background: rgba(48, 51, 107,.5);
