@@ -33,7 +33,14 @@
             <div class="carousel-item">
             <img src="img/5.jpg" class="d-block w-100" alt="...">
             </div>
+            
         </div>
+        <section class="colorbarra py-3  ">
+                <div class="container lead text-dark text-center ">
+                    <img src="img/logosutep.png" width="100px" alt="">
+                    <p>Un niño, un maestro, un libro, un lápiz pueden cambiar el mundo (Malala Yousafzai).</p>
+                </div>
+            </section>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -42,16 +49,12 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    
     </div>
 
     <!-- secction container -->
 
-    <section class="bg-warning py-5">
-        <div class="container lead text-light text-center">
-            <img src="img/logosutep.png" width="100px" alt="">
-            <p>Un niño, un maestro, un libro, un lápiz pueden cambiar el mundo (Malala Yousafzai).</p>
-        </div>
-    </section>
+   
 
 
     <!-- SECTION NOTICIAS -->
@@ -105,7 +108,7 @@
     <!-- SECTION CONTACTO -->
     
     <section class="bg-text-contact py-2">
-        <h3 class="text-center text-muted text-white"> <!-- this section is for titles. For example CONTACTANOS--> </h3>
+        <h3 class="text-center text-muted text-white"> CONTACTANOS <!-- this section is for titles. For example CONTACTANOS--> </h3>
     </section>
 
     <section class="bg-contact py-4" >
@@ -114,28 +117,21 @@
                 <div class="col-lg-5 pl-2 pt-2 text-white pb-3 ">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item bg-contact">
-                            <i class="ml-2 fas fa-user-circle"></i> La Lenyn Eli Flores Balandra <br>
-                            <i class="ml-2 fas fa-phone-square"></i> 987 075 780 <br>
-                            <a href="#"><i class="mx-2 fab fa-facebook-f text-secondary "></i></a>
-                            <a href="#"><i class="mx-2 fab fa-twitter text-secondary "></i></a>
-                            <a href="#"><i class="mx-2 fab fa-instagram text-secondary "></i></a>
+                            <i class="ml-2 fas fa-user-circle"></i> Mauro Concha Villegas <br>
+                            <i class="ml-2 fas fa-phone-square"></i> 953 744 203 <br>
+                            
 
                         </li>
                         <li class="list-group-item bg-contact">
-                            <i class="ml-2 fas fa-user-circle"></i> KEVIN MAS NAAA  <br>
-                            <i class="ml-2 fas fa-phone-square"></i> 987 075 780 <br>
-                            <a href="#"><i class="mx-2 fab fa-facebook-f text-secondary "></i></a>
-                            <a href="#"><i class="mx-2 fab fa-twitter text-secondary "></i></a>
-                            <a href="#"><i class="mx-2 fab fa-instagram text-secondary "></i></a>
+                            <i class="ml-2 fas fa-user-circle"></i> Elias Flores Carrión <br>
+                            <i class="ml-2 fas fa-phone-square"></i> 978 004 592 <br>
+                            
 
                         </li>
                         <li class="list-group-item bg-contact">
-                            <i class="ml-2 fas fa-user-circle"></i> La Lenyn Eli Flores Balandra <br>
-                            <i class="ml-2 fas fa-phone-square"></i> 987 075 780 <br>
-                            <a href="#"><i class="mx-2 fab fa-facebook-f text-secondary "></i></a>
-                            <a href="#"><i class="mx-2 fab fa-twitter text-secondary "></i></a>
-                            <a href="#"><i class="mx-2 fab fa-instagram text-secondary "></i></a>
-
+                            <i class="ml-2 fas fa-user-circle"></i> Charo Rodriguez <br>
+                            <i class="ml-2 fas fa-phone-square"></i> 939 689 006 <br>
+                            
                         </li>
                     </ul>    
                 </div>                
@@ -149,12 +145,12 @@
     <!-- fin section contact -->
                       
     <!-- FOOTER -->
-
-    <footer class="bg-dark text-white ">
+    <li class="list-group-item bg-contact">                   
+    <footer class="bg-text-contact text-white ">
         <div class="container">
             
-            <div class="p-5 row text-center">
-                <div class="col-md-9 text-md-left">
+            <div class="p-3 row text-center">
+                <div class="col-md-7 text-md-left">
                     <span>©&nbsp; </span><span >2019</span><span>&nbsp;</span><span>SutepAndahuaylas</span><span>.&nbsp;</span><span>Todos los derechos reservados</span><span>&nbsp;</span>. Desarrollado&nbsp;por&nbsp;<a href="http://rezuam.intcap.org/" target="_blank">Rezuam</a>
                 </div>
                 <div class="col-md-3 text-md-right">
@@ -166,7 +162,7 @@
         
         </div>
     </footer>
-
+    </li> 
     <?php include('pie.html'); ?>
                                 
 </body>

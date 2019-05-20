@@ -50,7 +50,7 @@
     </section>
 
     <!-- Sección Ponentes -->
-    <section class="equipo bg-dark">
+    <section class="bg-dark equipo ">
         <div class="container p-4 text-center equipo-container">
             <div class="row py-3">
                 <!-- ponente one-->
@@ -474,12 +474,12 @@
 
 
     <!-- FOOTER -->
-
+    
     <footer class="bg-dark text-white ">
         <div class="container">
             
-            <div class="p-5 row text-center">
-                <div class="col-md-9 text-md-left">                        
+            <div class="p-4 row text-center">
+                <div class="col-md-7 text-md-left">                        
                     <span>©&nbsp; </span><span >2019</span><span>&nbsp;</span><span>SutepAndahuaylas</span><span>.&nbsp;</span><span>Todos los derechos reservados</span><span>&nbsp;</span>. Desarrollado&nbsp;por&nbsp;<a href="http://rezuam.intcap.org/" target="_blank">Rezuam</a>                    
                 </div>
                 <div class="col-md-3 text-md-right">
@@ -491,6 +491,7 @@
         
         </div>
     </footer>
+   
 
 
 

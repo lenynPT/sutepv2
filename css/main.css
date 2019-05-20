@@ -8,7 +8,8 @@
     opacity: .5;
 }
 .navbar-k .nav-item .nav-link-k{
-    color:#fff;
+    color:white;
+    font-weight: 600;
 }
 
 .img-logo{
@@ -39,7 +40,7 @@
 
 
 .equipo-container{
-    background: rgba(255, 159, 67,.4); /*#30336b;*/
+    background: rgba(41, 174, 252, 0.829); /*#30336b;*/
 }
 
 .team-sutep{
@@ -79,4 +80,20 @@
         background: rgba(48, 51, 107,.5);
     }
 }
+.colomenu{
+    background: rgba(41, 174, 252, 0.829);
+    opacity: 0.8;
+    color: black;
+    
+}
+.colorbarra{
+    background: rgba(41, 174, 252, 0.829);
+}
 
+.colorpie{
+    background: black;
+    opacity: 0.4;
+}
+.textcolor{
+    color: black;
+}
